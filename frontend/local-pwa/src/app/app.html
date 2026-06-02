@@ -1,0 +1,25 @@
+<!-- Estructura Base del Sistema -->
+<div class="min-h-screen bg-slate-900 flex text-slate-100">
+  
+  <!-- 1. Barra Lateral Fija a la Izquierda -->
+  <app-sidebar></app-sidebar>
+
+  <!-- 2. Área de Contenido Principal (Desplazada a la derecha para no encimarse con el sidebar) -->
+  <main class="flex-1 ml-64 p-8 flex items-center justify-center">
+    
+    <!-- Tarjeta de Bienvenida centrada en el espacio de trabajo -->
+    <div class="bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-700 max-w-md text-center">
+      <h1 class="text-3xl font-extrabold text-blue-400 tracking-tight mb-2">
+        Fallen TCG
+      </h1>
+      <p class="text-slate-400 text-sm mb-6">
+        El entorno de desarrollo para la administración de inventario está 100% activo.
+      </p>
+      <div class="inline-flex items-center gap-2 bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1.5 rounded-full border border-emerald-500/20">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Tailwind v4 + PWA Oficial Nativos
+      </div>
+    </div>
+
+  </main>
+</div>
